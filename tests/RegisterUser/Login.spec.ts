@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('End-to-end Signup and Delete Account on AutomationExercise', async ({ page }: { page: import('@playwright/test').Page }) => {
+test('End-to-end Signup and Delete Account on AutomationExercise', async ({ page}) => {
   // 1. Launch browser and 2. Navigate to URL
   await page.goto('http://automationexercise.com');
 
