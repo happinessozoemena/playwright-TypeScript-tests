@@ -87,16 +87,16 @@ export class SignupPage {
     await this.newsletterCheckbox.check();
     await this.offersCheckbox.check();
 
-    await this.firstNameInput.fill('John');
-    await this.lastNameInput.fill('Doe');
+    await this.firstNameInput.fill('Happiness');
+    await this.lastNameInput.fill('Ozoemena');
     await this.companyInput.fill('TestCorp');
     await this.address1Input.fill('123 Test Street');
     await this.address2Input.fill('Apt 1');
-    await this.countryDropdown.selectOption('United States');
-    await this.stateInput.fill('California');
-    await this.cityInput.fill('Los Angeles');
+    await this.countryDropdown.selectOption('Nigeria');
+    await this.stateInput.fill('Abuja');
+    await this.cityInput.fill('fct');
     await this.zipcodeInput.fill('90001');
-    await this.mobileNumberInput.fill('1234567890');
+    await this.mobileNumberInput.fill('+2349064008150');
 
     await this.createAccountButton.click();
   }
